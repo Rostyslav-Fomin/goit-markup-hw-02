@@ -1,0 +1,100 @@
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+:root {
+  --background-color-1: #ffffff;
+  --background-color-2: #f5f4fa;
+  --background-color-3: #2f303a;
+  --accent-color: #2196f3;
+  --main-black-color: #212121;
+  --text-color: #757575;
+  --footer-link-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: var(--background-color-1);
+}
+/* Шапка */
+.logo {
+  color: var(--accent-color);
+}
+.nav-logo {
+  color: #000000;
+}
+.nav-link {
+  color: var(--main-black-color);
+}
+.nav-link:hover,
+.nav-link:focus,
+.nav-link:active {
+  color: var(--accent-color);
+}
+.link {
+  color: var(--text-color);
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--accent-color);
+}
+
+/* Основний блок */
+.section-tittle {
+  color: var(--main-black-color);
+}
+
+/* Герой */
+.hero {
+  background-color: var(--background-color-3);
+}
+h1 {
+  color: var(--background-color-1);
+}
+.button {
+  color: var(--background-color-1);
+  background-color: var(--accent-color);
+}
+
+/* Особливості */
+.benefits-subtittle {
+  color: var(--main-black-color);
+}
+.benefits-text {
+  color: var(--text-color);
+}
+
+/* Команда */
+.team-subtittle {
+  color: var(--main-black-color);
+}
+.team-text {
+  color: var(--text-color);
+}
+
+/* Підвал */
+.page-footer {
+  background-color: var(--background-color-3);
+}
+.footer-logo {
+  color: #ffffff;
+}
+.address-text {
+  color: var(--background-color-1);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--background-color-1);
+}
+
+/* Сторінка "Портфоліо" */
+/* Секція портфоліо */
+.btn {
+  color: var(--main-black-color);
+  background-color: var(--background-color-2);
+}
+.btn:hover,
+.btn:focus {
+  color: var(--background-color-1);
+  background-color: var(--accent-color);
+}
