@@ -68,6 +68,9 @@ h1 {
 }
 
 /* Команда */
+.team-section {
+  background-color: var(--background-color-2);
+}
 .team-subtittle {
   color: var(--main-black-color);
 }
