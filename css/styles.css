@@ -9,13 +9,13 @@
 }
 body {
   background-color: var(--background-color-1);
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 /* Сторінка "Студія" */
 /* Шапка */
 .logo {
   color: var(--accent-color);
-  font-family: Raleway, sans-serif;
+  font-family: 'Raleway', sans-serif;
   text-decoration: none;
   font-size: 26px;
   font-weight: 700;
@@ -47,6 +47,10 @@ body {
 .contact-link {
   color: var(--text-color);
   text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.28px;
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -105,16 +109,19 @@ h1 {
 /* Команда */
 .team-section {
   background-color: var(--background-color-2);
+}
+.team-subtittle {
+  color: var(--main-black-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.48px;
 }
-.team-subtittle {
-  color: var(--main-black-color);
-}
 .team-text {
   color: var(--text-color);
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.48px;
 }
 
 /* Підвал */
@@ -127,16 +134,12 @@ h1 {
 .address-text {
   color: var(--background-color-1);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.42px;
 }
 .address-link {
   color: var(--footer-link-color);
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.42px;
   text-decoration: none;
